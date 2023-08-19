@@ -1,35 +1,22 @@
 body {
-    background: rgba(240, 40, 40, 0.733);
-    background: radial-gradient(circle, rgb(28, 152, 224) 0%, rgb(182, 31, 11) 100%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../img/pngtree-pink-rose-gold-watercolor-abstract-background-picture-image_1315433.jpg);
+    background-size: 1600px, 900px;
     text-align: center;
-    margin: auto;
-    padding: 20px;
+    align-content: center;
+    margin: 10px 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    padding: 45px;
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
-  }
+main{
+  color: rgb(117, 30, 27);  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: auto;
+}
 
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-   
-  
-  input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-  }
+h3{
+  padding: 45px;
+}
 #dia:out-of-range{
   background-color: #e6523f;
 }
@@ -37,3 +24,11 @@ label {
 #mes:out-of-range{
   background-color: #e6523f;
 }
+p{
+  color: rgb(121, 61, 61);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  padding: 25px;
+}
+
+

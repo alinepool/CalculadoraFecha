@@ -1,5 +1,3 @@
-
-
 function diasTotalesMeses(mes) {
     let diasDelMes;
     switch (mes) {
@@ -57,8 +55,7 @@ function calcularDia() {
             habilInhabil = "Hábil";
     }
 
-    document.getElementById("diaDeLaSemana").value = nombreDiaSemana;
-    document.getElementById("laboralNoLab").value = habilInhabil;
+    document.getElementById("diaDeLaSemana").textContent = nombreDiaSemana + "  es día " + habilInhabil;
 }
 
 function validarLimite(input) {
